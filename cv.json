@@ -1,0 +1,301 @@
+{
+    "basics": {
+        "name": "Jonatan Isaac Pizarro Orellana",
+        "label": "Full Stack Developer con más de 1 año de experiencia enfocado en crear soluciones web escalables y eficientes.",
+        "image": "/me.webp",
+        "email": "jonatan.pizarro2002@gmail.com",
+        "phone": "+9 5901 9009",
+        "url": "https://midu.dev",
+        "summary": "+1 años de experiencia como Desarrollador Web. Actualmente apasionado por la Programación. Vivo en Santiago, Chile. He trabajado en diferentes entornos: desde ser Programador Front-End en Ribu Dynamics hasta ahora enfocándome en convertirme en Desarrollador FullStack.",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Santiago",
+            "countryCode": "CL",
+            "region": "Chile"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "jonvtvn",
+                "url": "https://www.linkedin.com/in/jonvtvn/"
+            },
+            {
+                "network": "GitHub",
+                "username": "Jonvtvn",
+                "url": "https://github.com/Jonvtvn"
+            }
+        ]
+    },
+    "work": [
+        {
+            "url": "https://ribudynamics.com/",
+            "name": "Ribu Dynamics",
+            "position": "Desarrollador Front-End",
+            "startDate": "2023-03-01",
+            "endDate": "2025-05-01",
+            "specs": [
+                "Remote",
+                "React",
+                "Next.js",
+                "TypeScript",
+                "Django"
+            ],
+            "summary": "● Desarrollé interfaces de usuario para la plataforma Dynatoon utilizando NextJs lo cual es React y TypeScript, creando componentes reutilizables y optimizando la experiencia de usuario.\n● Implementé diseño responsivo y accesibilidad, asegurando que la plataforma funcione de manera fluida en dispositivos móviles y sea accesible para todos los usuarios.\n● Integré soluciones modernas de UI/UX utilizando Tailwind CSS para crear interfaces visualmente atractivas y fáciles de usar.\n● Implementé el manejo de estado global con Redux y Context API para asegurar una gestión eficiente de los datos y una experiencia de usuario consistente.\n● Creé flujos de usuario para la compra de contenido premium e interacciones dentro de la plataforma, integrando de manera sencilla las pasarelas de pago.\n● Optimicé la velocidad de carga y el rendimiento de la aplicación mediante el análisis de métricas con herramientas como Lighthouse.",
+            "highlights": [
+                "Started the company"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Inst. Profesional Duoc Uc",
+            "url": "https://www.duoc.cl/",
+            "area": "Ingeniero en Informatica",
+            "studyType": "Superior",
+            "startDate": "2019-01-01",
+            "endDate": "2023-01-01",
+            "score": "4.0",
+            "courses": [
+                "ANÁLISIS Y DES. DE MODELOS DE DATOS",
+                "ARQUITECTURA DE SOFTWARE",
+                "GESTIÓN DE PROYECTOS INFORMÁTICOS",
+                "CALIDAD DE SOFTWARE",
+                "PROGRAMACIÓN DE SOFTWARE",
+                "INTERNACIONAL EN INGLÉS INTERMEDIO ALTO",
+                "ANÁLISIS Y PLANIFICACIÓN DE REQS",
+                "INTELIGENCIA DE NEGOCIOS"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Python"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "TypeScript"
+        },
+        {
+            "name": "Java"
+        },
+        {
+            "name": "React"
+        },
+        {
+            "name": "Next.js"
+        },
+        {
+            "name": "Django"
+        },
+        {
+            "name": "Angular"
+        },
+        {
+            "name": "Tailwind"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "Redux"
+        },
+        {
+            "name": "Figma"
+        },
+        {
+            "name": "Adobe Ilustrator"
+        },
+        {
+            "name": "Canvas"
+        },
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "Node"
+        },
+        {
+            "name": "MySQL"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "GitHub"
+        },
+        {
+            "name": "Trabajo en equipo"
+        },
+        {
+            "name": "Comunicación efectiva"
+        },
+        {
+            "name": "Adaptabilidad"
+        },
+        {
+            "name": "Pensamiento crítico"
+        },
+        {
+            "name": "Gestión del tiempo"
+        },
+        {
+            "name": "Resolución de problemas"
+        },
+        {
+            "name": "Aprendizaje continuo"
+        },
+        {
+            "name": "Empatía"
+        }
+    ],
+    "tecnologies": [
+        {
+            "language": "Spanish",
+            "fluency": "Nativo"
+        },
+        {
+            "language": "English",
+            "fluency": "Intermedio"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Game Snake",
+            "isActive": true,
+            "description": "Un clásico juego de Snake implementado con TypeScript.",
+            "highlights": [
+                "Juego interactivo con controles por teclado",
+                "Lógica de colisiones y crecimiento de la serpiente"
+            ],
+            "tecnologies": [
+                "Next.js",
+                "Tailwind",
+                "TypeScript",
+                "Javascript",
+                "CSS"
+            ],
+            "url": "https://github.com/Jonvtvn/snake",
+            "demoUrl": "https://snake-web-app.vercel.app/"
+        },
+        {
+            "name": "App Task",
+            "isActive": true,
+            "description": "Aplicación de tareas para organizar actividades diarias.",
+            "highlights": [
+                "Interfaz simple para gestionar tareas",
+                "Desarrollada con TypeScript"
+            ],
+            "tecnologies": [
+                "Angular",
+                "Tailwind",
+                "TypeScript",
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "url": "https://github.com/Jonvtvn/appTask",
+            "demoUrl": "https://task-app-web-kappa.vercel.app/todo"
+        },
+        {
+            "name": "Music Pro",
+            "isActive": true,
+            "description": "Sitio web musical diseñado en HTML con enfoque visual.",
+            "highlights": [
+                "Diseño visual atractivo",
+                "Sección dedicada a artistas y géneros"
+            ],
+            "tecnologies": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "url": "https://github.com/Jonvtvn/Proyect-Music-Pro"
+        },
+        {
+            "name": "My Training",
+            "isActive": true,
+            "description": "Plataforma de entrenamiento personal o rutina de ejercicios.",
+            "highlights": [
+                "Planificación de entrenamiento",
+                "Tecnologías modernas con TypeScript"
+            ],
+            "tecnologies": [
+                "IONIC",
+                "SCSS",
+                "HTML",
+                "TypeScript"
+            ],
+            "url": "https://github.com/Jonvtvn/Proyect-My-Training"
+        },
+        {
+            "name": "Your Highlights",
+            "isActive": true,
+            "description": "Proyecto académico para destacar puntos clave de una experiencia.",
+            "highlights": [
+                "Experiencia en desarrollo web",
+                "Proyecto de curso de programación"
+            ],
+            "tecnologies": [
+                "HTML",
+                "CSS"
+            ],
+            "url": "https://github.com/Jonvtvn/Proyect-Your-Highlights"
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+---
+import { basics } from "@cv";
+import Cv from "../icons/cv.astro";
+import Mail from "../icons/Mail.astro";
+import Phone from "../icons/Phone.astro";
+import GitHub from "src/icons/GitHub.astro";
+import LinkedIn from "src/icons/LinkedIn.astro";
+import WorldMap from "src/icons/WorldMap.astro";
+
+const { name, label, image, location, profiles, phone, email } = basics;
+const { city, region } = location;
+
+const SOCIAL_ICONS: Record<string, any> = { GitHub, LinkedIn };
+---
+
+<section class="mb-10">
+    <div class="container">
+        <div class="hidden md:flex flex-col items-center gap-1 mt-3 -ml-[66px]">
+            {
+                email && (
+                    <a
+                        class="border p-2 rounded-md hover:bg-neutral-100 bg-white"
+                        href={`mailto:${email}`}
+                        title={`Enviar un email a ${name} al correo ${email}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Mail />
+                    </a>
+                )
+            }
+            {
+                phone && (
+                    <a
+                        class="border p-2 rounded-md hover:bg-neutral-100 bg-white"
+                        href={`tel:${phone}`}
+                        title={`LLamar a ${name} al numero ${phone}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Phone />
+                    </a>
+                )
+            }
+            {
+                profiles.map(({ network, url, username }) => {
+                    const Icon = SOCIAL_ICONS[network];
+                    return (
+                        <a
+                            class="border p-2 rounded-md hover:bg-neutral-100 bg-white"
+                            href={url}
+                            title={`Visitar el perfil de ${name} en ${network}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Icon />
+                        </a>
+                    );
+                })
+            }
+
+            <a
+                class="border p-[6px] rounded-md hover:bg-neutral-100"
+                href="/Curriculum.pdf"
+                title="Descargar mi currículum"
+                download
+            >
+                <Cv />
+            </a>
+        </div>
+
+        <div>
+            <h1 class="font-bold text-4xl mb-2">{name}</h1>
+            <p>{label}</p>
+            <span class="flex items-center gap-2 text-xs mt-1">
+                <WorldMap />{city}, {region}
+            </span>
+            <div class="md:hidden flex items-center gap-1 mt-3">
+                {
+                    email && (
+                        <a
+                            class="border p-2 rounded-md hover:bg-neutral-100 bg-white"
+                            href={`mailto:${email}`}
+                            title={`Enviar un email a ${name} al correo ${email}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Mail />
+                        </a>
+                    )
+                }
+                {
+                    phone && (
+                        <a
+                            class="border p-2 rounded-md hover:bg-neutral-100 bg-white"
+                            href={`tel:${phone}`}
+                            title={`LLamar a ${name} al numero ${phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Phone />
+                        </a>
+                    )
+                }
+                {
+                    profiles.map(({ network, url, username }) => {
+                        const Icon = SOCIAL_ICONS[network];
+                        return (
+                            <a
+                                class="border p-2 rounded-md hover:bg-neutral-100 bg-white"
+                                href={url}
+                                title={`Visitar el perfil de ${name} en ${network}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Icon />
+                            </a>
+                        );
+                    })
+                }
+                <a
+                    class="border p-[6px] rounded-md hover:bg-neutral-100 bg-white"
+                    href="/Curriculum-Jonatan-Pizarro.pdf"
+                    title="Descargar mi currículum"
+                    download
+                >
+                    <Cv />
+                </a>
+            </div>
+        </div>
+        <figure>
+            <img src={image} alt={name} />
+        </figure>
+    </div>
+</section>
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; /* Alinea elementos al inicio verticalmente */
+        justify-content: flex-start; /* Alinea elementos al inicio horizontalmente */
+        gap: 2rem; /* Agrega espacio entre los elementos */
+    }
+    footer {
+        flex-shrink: 0; /* Evita que el footer se reduzca */
+    }
+    img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        width: 178px;
+        border-radius: 15px;
+    }
+</style>

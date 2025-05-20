@@ -1,0 +1,66 @@
+---
+import { education } from "@cv";
+---
+
+<section class="mb-10">
+    <h2 class="font-bold text-2xl mb-3">Educación</h2>
+    <ul>
+        {
+            education.map(
+                ({ institution, area, startDate, endDate, courses, url }) => {
+                    const startYear = new Date(
+                        startDate + "T00:00:00",
+                    ).getFullYear();
+                    const endYear =
+                        endDate != null
+                            ? new Date(endDate + "T00:00:00").getFullYear()
+                            : "Actual";
+
+                    const years = `${startYear} - ${endYear}`;
+
+                    return (
+                        <li>
+                            <article>
+                                <header class="mb-3">
+                                    <div class="flex justify-between items-center">
+                                        <div class="flex items-center">
+                                            <a
+                                                href={url}
+                                                target="_blank"
+                                                class="w-fit mr-3"
+                                            >
+                                                <h2 class="text-lg font-semibold">
+                                                    {" "}
+                                                    {institution}
+                                                </h2>
+                                            </a>
+                                        </div>
+                                        <span class="text-neutral-600">
+                                            {years}
+                                        </span>
+                                    </div>
+                                    <p>{area}</p>
+                                </header>
+                                <footer>
+                                    <ul>
+                                        <h2 class="text-base font-medium">
+                                            Certificaciones
+                                        </h2>
+                                        {courses.map((courses, index) => (
+                                            <div>
+                                                ●
+                                                <span class="text-xs bg-neutral-200 py-1 px-2 m-1 rounded-xl">
+                                                    {courses}
+                                                </span>
+                                            </div>
+                                        ))}
+                                    </ul>
+                                </footer>
+                            </article>
+                        </li>
+                    );
+                },
+            )
+        }
+    </ul>
+</section>

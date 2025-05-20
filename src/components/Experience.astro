@@ -1,0 +1,79 @@
+---
+import { work } from "@cv";
+---
+
+<section class="mb-10">
+    <h2 class="font-bold text-2xl mb-3">Experiencia</h2>
+    <ul>
+        {
+            work.map(
+                ({
+                    name,
+                    startDate,
+                    endDate,
+                    position,
+                    summary,
+                    specs,
+                    url,
+                }) => {
+                    const startYear = new Date(startDate).getFullYear();
+                    const endYear =
+                        endDate != null
+                            ? new Date(endDate).getFullYear()
+                            : "Actual";
+                    const years = `${startYear} - ${endYear}`;
+
+                    return (
+                        <li>
+                            <article>
+                                <header class="mb-3">
+                                    <div class="flex justify-between items-center">
+                                        <div class="flex items-center">
+                                            <a
+                                                href={url}
+                                                target="_blank"
+                                                class="w-fit mr-3"
+                                            >
+                                                <h2 class="text-lg font-semibold">
+                                                    {" "}
+                                                    {name}
+                                                </h2>
+                                            </a>
+                                        </div>
+                                        <span class="text-neutral-600">
+                                            {years}
+                                        </span>
+                                    </div>
+                                    <div class="flex flex-wrap mb-5">
+                                        {specs.map((spec, index) => (
+                                            <div>
+                                                <span class="text-xs bg-neutral-200 py-1 px-2 m-1 rounded-xl">
+                                                    {spec}
+                                                </span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                    <h3 class="font-semibold">{position}</h3>
+                                </header>
+                                <footer>
+                                    <ul>
+                                        {summary
+                                            .split("●")
+                                            .filter(
+                                                (item) => item.trim() !== "",
+                                            )
+                                            .map((point, index) => (
+                                                <p>
+                                                    ●&nbsp;&nbsp;{point.trim()}
+                                                </p>
+                                            ))}
+                                    </ul>
+                                </footer>
+                            </article>
+                        </li>
+                    );
+                },
+            )
+        }
+    </ul>
+</section>
