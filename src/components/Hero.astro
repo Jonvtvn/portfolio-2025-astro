@@ -59,14 +59,43 @@ const SOCIAL_ICONS: Record<string, any> = { GitHub, LinkedIn };
                 })
             }
 
-            <a
-                class="border p-[6px] rounded-md hover:bg-neutral-100"
+            <!-- <a
                 href="/Curriculum.pdf"
-                title="Descargar mi currículum"
                 download
+                class="border p-[6px] rounded-md hover:bg-neutral-100 bg-white"
+            >
+                <Cv />
+            </a> -->
+            <a
+                href="/cv.docx"
+                download="cv.docx"
+                class="border p-[6px] rounded-md hover:bg-neutral-100 bg-white"
+                title="Descargar mi currículum"
             >
                 <Cv />
             </a>
+            <!-- <button
+                id="download-cv"
+                class="border p-[6px] rounded-md hover:bg-neutral-100 bg-white"
+                title="Descargar mi currículum"
+            >
+                <Cv />
+            </button>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    const btn = document.getElementById("download-cv");
+                    if (btn) {
+                        btn.addEventListener("click", () => {
+                            const link = document.createElement("a");
+                            link.href = "/cv.pdf";
+                            link.download = "cv.pdf";
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                        });
+                    }
+                });
+            </script> -->
         </div>
 
         <div>
@@ -118,14 +147,43 @@ const SOCIAL_ICONS: Record<string, any> = { GitHub, LinkedIn };
                         );
                     })
                 }
-                <a
-                    class="border p-[6px] rounded-md hover:bg-neutral-100 bg-white"
-                    href="/Curriculum-Jonatan-Pizarro.pdf"
-                    title="Descargar mi currículum"
+                <!-- <a
+                    href="/Curriculum.pdf"
                     download
+                    class="border p-[6px] rounded-md hover:bg-neutral-100 bg-white"
+                >
+                    <Cv />
+                </a> -->
+                <a
+                    href="/cv.docx"
+                    download="cv.docx"
+                    class="border p-[6px] rounded-md hover:bg-neutral-100 bg-white"
+                    title="Descargar mi currículum"
                 >
                     <Cv />
                 </a>
+                <!-- <button
+                    id="download-cv"
+                    class="border p-[6px] rounded-md hover:bg-neutral-100 bg-white"
+                    title="Descargar mi currículum"
+                >
+                    <Cv />
+                </button>
+                <script>
+                    document.addEventListener("DOMContentLoaded", () => {
+                        const btn = document.getElementById("download-cv");
+                        if (btn) {
+                            btn.addEventListener("click", () => {
+                                const link = document.createElement("a");
+                                link.href = "/cv.pdf";
+                                link.download = "cv.pdf";
+                                document.body.appendChild(link);
+                                link.click();
+                                document.body.removeChild(link);
+                            });
+                        }
+                    });
+                </script> -->
             </div>
         </div>
         <figure>
