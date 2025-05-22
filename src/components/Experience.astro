@@ -47,7 +47,9 @@ import { work } from "@cv";
                                     <div class="flex flex-wrap mb-5">
                                         {specs.map((spec, index) => (
                                             <div>
-                                                <span class="text-xs bg-neutral-200 py-1 px-2 m-1 rounded-xl">
+                                                <span
+                                                    class={`text-xs bg-neutral-200 py-1 px-2 m-1 rounded-xl ${spec === "Trabajo Remoto" && "bg-orange-300"}`}
+                                                >
                                                     {spec}
                                                 </span>
                                             </div>

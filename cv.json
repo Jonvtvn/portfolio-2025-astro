@@ -5,7 +5,7 @@
         "image": "/me.webp",
         "email": "jonatan.pizarro2002@gmail.com",
         "phone": "+9 5901 9009",
-        "url": "https://midu.dev",
+        "url": "https://jonatanpizarroportfolio.vercel.app/",
         "summary": "+1 años de experiencia como Desarrollador Web. Actualmente apasionado por la Programación. Vivo en Santiago, Chile. He trabajado en diferentes entornos: desde ser Programador Front-End en Ribu Dynamics hasta ahora enfocándome en convertirme en Desarrollador FullStack.",
         "location": {
             "address": "",
@@ -35,7 +35,7 @@
             "startDate": "2023-03-01",
             "endDate": "2025-05-01",
             "specs": [
-                "Remote",
+                "Trabajo Remoto",
                 "React",
                 "Next.js",
                 "TypeScript",
@@ -126,16 +126,31 @@
             "name": "Next.js"
         },
         {
+            "name": "Astro"
+        },
+        {
+            "name": "PHP"
+        },
+        {
             "name": "Django"
         },
         {
             "name": "Angular"
         },
         {
+            "name": "IONIC"
+        },
+        {
             "name": "Tailwind"
         },
         {
+            "name": "SASS"
+        },
+        {
             "name": "CSS"
+        },
+        {
+            "name": "HTML"
         },
         {
             "name": "Redux"
@@ -150,10 +165,13 @@
             "name": "Canvas"
         },
         {
-            "name": "HTML"
+            "name": "Node"
         },
         {
-            "name": "Node"
+            "name": "Docker"
+        },
+        {
+            "name": "AWS"
         },
         {
             "name": "MySQL"
@@ -162,7 +180,13 @@
             "name": "Git"
         },
         {
+            "name": "GitLab"
+        },
+        {
             "name": "GitHub"
+        },
+        {
+            "name": "Metodologia Scrum"
         },
         {
             "name": "Trabajo en equipo"
@@ -189,14 +213,14 @@
             "name": "Empatía"
         }
     ],
-    "tecnologies": [
+    "lenguage": [
         {
-            "language": "Spanish",
+            "language": "Español",
             "fluency": "Nativo"
         },
         {
-            "language": "English",
-            "fluency": "Intermedio"
+            "language": "Ingles",
+            "fluency": "Basico/Medio"
         }
     ],
     "interests": [
@@ -296,6 +320,24 @@
                 "CSS"
             ],
             "url": "https://github.com/Jonvtvn/Proyect-Your-Highlights"
-        }
+        },
+        {
+            "name": "PayPal Payment Gateway - Next.js",
+            "isActive": true,
+            "description": "Pasarela de pago integrada con PayPal usando Next.js. Permite pagos con tan solo agregar el Client ID.",
+            "highlights": [
+                "Integración real de pagos con PayPal",
+                "Desarrollado con Next.js para frontend moderno",
+                "Configuración sencilla con variables de entorno"
+            ],
+            "tecnologies": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind",
+                "React",
+                "PayPal SDK"
+            ],
+            "url": "https://github.com/Jonvtvn/paypal-payment-gateway-nextjs"
+}
     ]
 }

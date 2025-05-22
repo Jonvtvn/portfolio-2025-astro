@@ -1,11 +1,25 @@
 ---
-import { basics } from "@cv";
+import { basics, lenguage } from "@cv";
 
 const { summary } = basics;
 ---
 
 <section class="mb-10 md:-mt-20">
-    <h2 class="font-bold text-2xl mb-3">Sobre mi</h2>
-    <p>{summary}</p>
+    <h2 class="font-bold text-2xl mb-3">Sobre mí</h2>
+    <div class="flex flex-wrap mb-2">
+        {
+            lenguage.map(({ language, fluency }) => (
+                <span
+                    class={`text-xs bg-neutral-200 py-1 px-2 m-1 rounded-xl `}
+                >
+                    <strong>{language}</strong> {fluency}
+                </span>
+            ))
+        }
+    </div>
+    <p class="mb-4">{summary}</p>
 </section>
-<style></style>
+
+<style>
+    /* Estilos adicionales si necesitas */
+</style>
