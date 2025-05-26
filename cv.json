@@ -280,6 +280,45 @@
             "demoUrl": "https://task-app-web-kappa.vercel.app/todo"
         },
         {
+            "name": "PayPal Payment Gateway - Next.js",
+            "isActive": true,
+            "description": "Pasarela de pago integrada con PayPal usando Next.js. Permite pagos con tan solo agregar el Client ID.",
+            "highlights": [
+                "Integración real de pagos con PayPal",
+                "Desarrollado con Next.js para frontend moderno",
+                "Configuración sencilla con variables de entorno"
+            ],
+            "tecnologies": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind",
+                "React",
+                "PayPal SDK"
+            ],
+            "url": "https://github.com/Jonvtvn/paypal-payment-gateway-nextjs"
+        },
+        {
+            "name": "Proyecto Fullstack Simple - Django, Next.js y MySQL",
+            "isActive": true,
+            "description": "Proyecto que integra un backend en Django, frontend en Next.js y base de datos en MySQL.",
+            "highlights": [
+                "Conexión a una API externa y almacenamiento de datos",
+                "Frontend interactivo con filtros, ordenamientos y visualización",
+                "Base de datos relacional con múltiples tablas",
+                "Backend con Django que expone endpoints REST"
+            ],
+            "tecnologies": [
+                "Django",
+                "React",
+                "Next.js",
+                "MySQL",
+                "Tailwind",
+                "TypeScript",
+                "Python"
+            ],
+            "url": "https://github.com/Jonvtvn/fullstack-django-next-mysql"
+        },
+        {
             "name": "Music Pro",
             "isActive": true,
             "description": "Sitio web musical diseñado en HTML con enfoque visual.",
@@ -323,24 +362,6 @@
                 "CSS"
             ],
             "url": "https://github.com/Jonvtvn/Proyect-Your-Highlights"
-        },
-        {
-            "name": "PayPal Payment Gateway - Next.js",
-            "isActive": true,
-            "description": "Pasarela de pago integrada con PayPal usando Next.js. Permite pagos con tan solo agregar el Client ID.",
-            "highlights": [
-                "Integración real de pagos con PayPal",
-                "Desarrollado con Next.js para frontend moderno",
-                "Configuración sencilla con variables de entorno"
-            ],
-            "tecnologies": [
-                "Next.js",
-                "TypeScript",
-                "Tailwind",
-                "React",
-                "PayPal SDK"
-            ],
-            "url": "https://github.com/Jonvtvn/paypal-payment-gateway-nextjs"
-}
+        }
     ]
 }
