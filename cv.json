@@ -280,6 +280,25 @@
             "demoUrl": "https://task-app-web-kappa.vercel.app/todo"
         },
         {
+            "name": "Sistema de Autenticación con Supabase",
+            "isActive": true,
+            "description": "Sistema completo de autenticación de usuarios usando Supabase y Next.js.",
+            "highlights": [
+                "Autenticación de usuarios (registro, login, logout)",
+                "Protección de rutas y manejo de sesiones",
+                "Integración completa con Supabase Auth"
+            ],
+            "tecnologies": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS",
+                "Supabase",
+                "React",
+                "radix-ui"
+            ],
+            "url": "https://github.com/Jonvtvn/Sistem-Auth-Supabase"
+        },
+        {
             "name": "PayPal Payment Gateway - Next.js",
             "isActive": true,
             "description": "Pasarela de pago integrada con PayPal usando Next.js. Permite pagos con tan solo agregar el Client ID.",
